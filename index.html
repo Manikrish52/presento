@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presento-2</title>
+    <!-- Bootstrap link - CSS -->
+    <link rel="stylesheet" href="./Assets/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <!-- Bootstrap link - CSS Ends -->
+    <!-- Bootstrap link - CDN with Popper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Assets/style/style.css">
+    <!-- CSS ENDS -->
+    <!-- Font Awesome 4 -->
+    <link rel="stylesheet" href="./Assets/font-awesome-4.7.0 2/css/font-awesome.min.css">
+    <!-- Font Awesome 4 ENDs -->
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar (Only HTML CSS) -->
+    <!-- <section>
+        <div class="bgNavigation">
+            <div class="container" style="padding: 0; position: relative;">
+                <div class="row">
+                    <div class="naviContent">
+                        <div class="col-xl-2" id="naviPresento">
+                            <h1 class="navigationHead">Presento<span class="navigationDot">.</span>
+                            </h1>
+                        </div>
+                        <div class="col-xl-9">
+                            <div class="naviItems">
+                                <ul class="naviUl">
+                                    <li class="naviLi"><a class="naviLink" href="">Home</a></li>
+                                    <li class="naviLi"><a class="naviLink" href="">About</a></li>
+                                    <li class="naviLi"><a class="naviLink" href="">Services</a></li>
+                                    <li class="naviLi"><a class="naviLink" href="">Portfolio</a></li>
+                                    <li class="naviLi"><a class="naviLink" href="">Team</a></li>
+                                    <li class="naviLi"><a class="naviLink" href="">Blog</a></li>
+                                    <li class="naviLi">
+                                        <a class="naviLink" href="">
+                                            Drop Down
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="naviLi"><a class="naviLink" href="">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-1" id="columnThree">
+                            <div class="thirdColumn">
+                                <div>
+                                    <button class="btn" id="getstartedNavigation">Get Started</button>
+                                </div>
+                                <div class="navigationHam">
+                                    <i id="hamburger" class="fa fa-bars" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Navigation Bar Ends  -->
+
+    <!-- Navigation Bar (with Bootstrap) -->
+    <section>
+        <div class="bgbgNavigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar navbar-expand-lg bg-light">
+                            <div class="container-fluid">
+                                <div class="col-xl-2">
+                                    <a class="navbar-brand" id="bsNavPresento" href="#">Presento<span
+                                            style="color:#E03A3C ;">.</span></a>
+                                </div>
+                                <div class="col-xl-9" id="bsNavmiddle">
+                                    <!-- bs btn -->
+
+                                    <!-- <button class=" navbar-toggler" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon" style="background-color:yellowgreen;"></span>
+                                    </button> -->
+
+                                    <!-- bs btn ends -->
+
+                                    <!-- Modal Btn -->
+                                    <button type="button" class="modalham" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </button>
+                                    <!-- Modal Btn ENDS -->
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <div class="bsNavItemsCover">
+                                            <div class="bsNavItems">
+                                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">About</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Services</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Portfolio</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Team</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Blog</a>
+                                                    </li>
+                                                    <li class="nav-item dropdown">
+                                                        <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <span style="white-space:nowrap ;">Drop&nbsp;Down&nbsp;<i
+                                                                    class="fa fa-angle-down"
+                                                                    aria-hidden="true"></i></span>
+                                                        </a>
+                                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                            <li><a class="dropdown-item" href="#">Drop Down 1</a>
+                                                            </li>
+                                                            <!-- Deep Drop Down -->
+                                                            <li class="nav-item deepdropdown">
+                                                                <a class="nav-link" href="#" id="navbarDropdown"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    Deep Drop Down&nbsp;&nbsp;&nbsp;<i
+                                                                        class="fa fa-angle-right"
+                                                                        aria-hidden="true"></i>
+                                                                </a>
+                                                                <ul class="deepdropdown-menu"
+                                                                    aria-labelledby="navbarDropdown">
+                                                                    <li><a class="dropdown-item" href="#">Deep Drop
+                                                                            Down
+                                                                            1</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Deep Drop
+                                                                            Down
+                                                                            2</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Deep Drop
+                                                                            Down
+                                                                            3</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Deep Drop
+                                                                            Down
+                                                                            4</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Deep Drop
+                                                                            Down
+                                                                            5</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <!-- Deep Drop Down ENDS -->
+                                                            <li><a class="dropdown-item" href="#">Another action</a>
+                                                            </li>
+                                                            <li><a class="dropdown-item" href="#">Something else
+                                                                    here</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link">Contact</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-xl-1" id="bsNavgetstarted">
+                                    <button class="btn" type="submit" id="getStarted">Get Started</button>
+                                </div>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Modal -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-scrollable" style="padding: 20px;">
+            <div class=" modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Drop Down&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Drop Down 1</a>
+                                </li>
+                                <!-- Deep Drop Down -->
+                                <li class="nav-item deepdropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Deep Drop Down&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"
+                                            aria-hidden="true"></i>
+                                    </a>
+                                    <ul class="deepdropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Deep Drop
+                                                Down
+                                                1</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop
+                                                Down
+                                                2</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop
+                                                Down
+                                                3</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop
+                                                Down
+                                                4</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Deep Drop
+                                                Down
+                                                5</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- Deep Drop Down ENDS -->
+                                <li><a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else
+                                        here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal ENDS -->
+
+
+    <!-- Navigation Bar (with Bootstrap) ENDS -->
+
+
+    <!-- Home -->
+    <section>
+        <div class="homeBg">
+            <div id="homeImage">
+                <div id="imgHome"></div>
+                <div class="homeOverlay">
+                    <div class="container" id="homeText">
+                        <h4 class="hoverHeaderHome">Bettter digital experience with Presento</h4>
+                        <h6 class="hoverParaHome">We are team of talented designers making websites with Bootstrap</h6>
+                        <button class="btn" id="homeButton">Get Started</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- Home Ends -->
+    <!-- About -->
+    <section>
+        <div class="bg">
+            <div class="container" id="insideContent">
+                <div class="row" style="padding-top: 80px; padding-bottom: 80px;">
+                    <div class="col-xl-5">
+                        <div class="aboutParent">
+                            <h1 class="aboutHeader">Voluptatem dignissimos provident quasi</h1>
+                            <p class="aboutPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                            <button class="btn btn-outline-danger" id="aboutUs">ABOUT US &nbsp;
+                                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-md" id="aboutSub">
+                        <div class="row" id="aboutSubrow">
+                            <div class="col-sm">
+                                <div>
+                                    <i class="fa fa-align-justify fa-2x" id="icon" aria-hidden="true"></i>
+                                    <h1 class="aboutSubheader">Corporis voluptates sit</h1>
+                                    <p class="aboutSubpara">Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                                        laboris nisi ut
+                                        aliquip</p>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div>
+                                    <i class="fa fa-cube fa-2x" id="icon" aria-hidden="true"></i>
+                                    <h1 class="aboutSubheader">Ullamco laboris nisi</h1>
+                                    <p class="aboutSubpara">Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="aboutSubrow">
+                            <div class="col-sm">
+                                <div>
+                                    <i class="fa fa-picture-o fa-2x" id="icon" aria-hidden="true"></i>
+                                    <h1 class="aboutSubheader">Labore consequatur</h1>
+                                    <p class="aboutSubpara">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
+                                        maiores omnis facere</p>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div>
+                                    <i class="fa fa-shield fa-2x" id="icon" aria-hidden="true"></i>
+                                    <h1 class="aboutSubheader">Beatae veritatis</h1>
+                                    <p class="aboutSubpara">Expedita veritatis consequuntur nihil tempore laudantium
+                                        vitae denat pacta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About ENDS -->
+
+    <!-- CountBox -->
+    <section>
+        <div class="bgCount">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl col-md-6 col-sm-12">
+                        <div class="cbContain">
+                            <div class="cbIconDiv">
+                                <i id="cbIcon" class="fa fa-smile-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cbData">
+                                <h1 class="cbHeader">232</h1>
+                                <p class="cbPara">Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-6 col-sm-12">
+                        <div class="cbContain">
+                            <div class="cbIconDiv">
+                                <i id="cbIcon" class="fa fa-address-book-o fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cbData">
+                                <h1 class="cbHeader">521</h1>
+                                <p class="cbPara">Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-6 col-sm-12">
+                        <div class="cbContain">
+                            <div class="cbIconDiv">
+                                <i id="cbIcon" class="fa fa-headphones fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cbData">
+                                <h1 class="cbHeader">1463</h1>
+                                <p class="cbPara">Hours Of Support</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-6 col-sm-12">
+                        <div class="cbContain">
+                            <div class="cbIconDiv">
+                                <i id="cbIcon" class="fa fa-users fa-2x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cbData">
+                                <h1 class="cbHeader">15</h1>
+                                <p class="cbPara">Hard Workers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CountBox -->
+
+    <!-- Card Presento -->
+    <section>
+        <div class="bgCard">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3" id="cardone">
+                        <div class="cardContain" tabindex="0">
+                            <div class="cardIcon">
+                                <i id="crdicon" class="fa fa-circle-o-notch fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cardHeader">
+                                <p>
+                                    Modi sit est dela pireda nest</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-3" id="cardtwo">
+                        <div class="cardContain" tabindex="1">
+                            <div class="cardIcon">
+                                <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cardHeader">
+                                <p>
+                                    Modi sit est dela pireda nest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3" id="cardthree">
+                        <div class="cardContain" tabindex="2">
+                            <div class="cardIcon">
+                                <i class="fa fa-sun-o fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cardHeader">
+                                <p>
+                                    Modi sit est dela pireda nest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3" id="cardSix">
+                        <div class="cardContain" tabindex="4">
+                            <div class="cardIcon">
+                                <i class="fa fa-archive fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <div class="cardHeader">
+                                <p>
+                                    Modi sit est dela pireda nest</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Card Presento ENDS -->
+    <!-- Card Content -->
+    <section>
+        <div class="bgCc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-12" id="ccCol">
+                        <h3 class="ccHeader">
+                            Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                        </h3>
+                        <p class="ccItalics">
+                            <i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                            </i>
+                        </p>
+                        <ul class="ccUl">
+                            <li class="ccLi">
+                                <i id="ccIcon" class="fa fa-check" aria-hidden="true"></i>
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </li>
+                            <li class="ccLi">
+                                <i id="ccIcon" class="fa fa-check" aria-hidden="true"></i>
+                                Duis aute irure dolor in reprehenderit in voluptate velit.
+                            </li>
+                            <li class="ccLi">
+                                <i id="ccIcon" class="fa fa-check" aria-hidden="true"></i>
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                                pariatur.
+                            </li>
+                        </ul>
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum
+                        </p>
+                    </div>
+                    <div class="col-xl-6 col-md-12">
+                        <img id="ccTabs" src="./Assets/Images/tabs-1.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Content ENDS -->
+    <!-- Services -->
+    <section>
+        <div class="bg">
+            <div class="container" id="servicesContainer">
+                <div class="row">
+                    <div class="col">
+                        <div class="servicesHeader">
+                            <h1 class="services">SERVICES</h1>
+                            <div class="underLine"></div>
+                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                                impedit suscipit alias ea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="servicesSubContain">
+                            <div class="servicesIcondiv">
+                                <span><i class="fa fa-suitcase fa-3x" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="servicesSubdiv">
+                                <h1 class="servicesSubHeader">Lorem Ipsum</h1>
+                                <p class="servicesPara">Voluptatum deleniti atque corrupti quos dolores et quas
+                                    molestias excepturi sint
+                                    occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="servicesSubContain">
+                            <div class="servicesIcondiv">
+                                <span><i class="fa fa-list-alt fa-3x" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="servicesSubdiv">
+                                <h1 class="servicesSubHeader">Dolor Sitema</h1>
+                                <p class="servicesPara">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat tarad limino ata</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="servicesSubContain">
+                            <div class="servicesIcondiv">
+                                <span><i class="fa fa-signal fa-3x" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="servicesSubdiv">
+                                <h1 class="servicesSubHeader">Sed ut perspiciatis</h1>
+                                <p class="servicesPara">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="servicesSubContain">
+                            <div class="servicesIcondiv">
+                                <span><i class="fa fa-binoculars fa-3x" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="servicesSubdiv">
+                                <h1 class="servicesSubHeader">Nemo Enim</h1>
+                                <p class="servicesPara">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                    qui officia deserunt mollit anim id est laborum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="servicesSubContain">
+                            <div class="servicesIcondiv">
+                                <span><i class="fa fa-sun-o fa-3x" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="servicesSubdiv">
+                                <h1 class="servicesSubHeader">Magni Dolore</h1>
+                                <p class="servicesPara">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                    blanditiis praesentium voluptatum deleniti atque</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="servicesSubContain">
+                            <div class="servicesIcondiv">
+                                <span><i class="fa fa-calendar fa-3x" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="servicesSubdiv">
+                                <h1 class="servicesSubHeader">Eiusmod Tempor</h1>
+                                <p class="servicesPara">Et harum quidem rerum facilis est et expedita distinctio. Nam
+                                    libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services ENDS -->
+
+    <!-- Portfolio -->
+    <section>
+        <div class="bgWhite">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="portfolioHeader">
+                            <h1 class="portfolio">PORTFOLIO</h1>
+                            <div class="underLine"></div>
+                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                                impedit suscipit alias ea.</p>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button id="portfolioButton" type="button" class="btn">ALL</button>
+                                <button id="portfolioButton" type="button" class="btn">APP</button>
+                                <button id="portfolioButton" type="button" class="btn">CARD</button>
+                                <button id="portfolioButton" type="button" class="btn">WEB</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-1.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">App <span class="hoverHeaderNo">1</span>
+                                    </h4>
+                                    <h6 class="hoverParaPortfolio"><i>APP</i></h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-2.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">Web<sub
+                                            style="padding-left: 5px; font-size: 20px;">3</sub></h4>
+                                    <h6 class="hoverParaPortfolio"> <i>WEB</i> </h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-3.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">App 2</h4>
+                                    <h6 class="hoverParaPortfolio">APP</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-4.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">Card 2</h4>
+                                    <h6 class="hoverParaPortfolio">CARD</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-5.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">Web 2</h4>
+                                    <h6 class="hoverParaPortfolio">WEB</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-6.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">App 3</h4>
+                                    <h6 class="hoverParaPortfolio">APP</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-7.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">Card 1</h4>
+                                    <h6 class="hoverParaPortfolio">CARD</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div id="portfolioImage">
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-8.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">Card 3</h4>
+                                    <h6 class="hoverParaPortfolio">CARD</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-sm-12">
+                        <div id="portfolioImage">
+                            <img src="./Assets/Images/portfolio-9.jpeg" id="imgPortfolio" alt="" class="img-fluid">
+                            <div class="portfolioOverlay">
+                                <div style="text-align:left ;">
+                                    <h4 class="hoverHeaderPortfolio">Web 3</h4>
+                                    <h6 class="hoverParaPortfolio">WEB</h6>
+                                    <i id="hoverIconOnePortfolio" class="fa fa-plus " aria-hidden="true"></i>
+                                    <i id="hoverIconTwoPortfolio" class="fa fa-link fa-flip-horizontal"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Protfolio Ends -->
+
+    <!-- Pricing -->
+    <section>
+        <div class="bg">
+            <div class="container" id="princingContainer">
+                <div class="row">
+                    <div class="col">
+                        <div class="servicesHeader">
+                            <h1 class="services">PRICING</h1>
+                            <div class="underLine"></div>
+                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                                impedit suscipit alias ea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg col-md">
+                        <div class="pricingContent">
+                            <div class="pricingContentStyle">
+                                <h6 class="pricingContentHeader">FREE</h6>
+                                <h1 class="price"><sup><i class="fa fa-usd" id="dollar" aria-hidden="true"></i>
+                                    </sup> 0<sub class="pricingSub">/ month</sub> </h1>
+                                <ul class="pricingList">
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li class="strike"><s>Pharetra massa</s></li>
+                                    <li class="strike"><s>Massa ultricies mi</s></li>
+                                </ul>
+                                <button class="btn btn-outline" id="pricingBuynow">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md">
+                        <div class="pricingContentRed">
+                            <div class="pricingContentStyle">
+                                <h6 class="pricingContentHeader">BUSINESS</h6>
+                                <h1 class="price"><sup><i class="fa fa-usd" id="dollar" aria-hidden="true"></i>
+                                    </sup> 19<sub class="pricingSub">/ month</sub> </h1>
+                                <ul class="pricingList">
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li>Pharetra massa</li>
+                                    <li class="strike"><s>Massa ultricies mi</s></li>
+                                </ul>
+                                <button class="btn btn-outline" id="pricingBuynowRed">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-6">
+                        <div class="pricingContent">
+                            <div class="pricingContentStyle">
+                                <h6 class="pricingContentHeader">DEVELOPER</h6>
+                                <h1 class="price"><sup><i class="fa fa-usd" id="dollar" aria-hidden="true"></i>
+                                    </sup> 29<sub class="pricingSub">/ month</sub> </h1>
+                                <ul class="pricingList">
+                                    <li>Aida dere</li>
+                                    <li>Nec feugiat nisl</li>
+                                    <li>Nulla at volutpat dola</li>
+                                    <li>Pharetra massa</li>
+                                    <li>Massa ultricies mi</li>
+                                </ul>
+                                <button class="btn btn-outline" id="pricingBuynow">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing ENDS -->
+
+    <!-- FAQ -->
+    <section>
+        <div class="bgFaq">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="faqHeadContain">
+                            <h1 class="faqHeader">FREQUENTLY ASKED QUESTIONS</h1>
+                            <div class="underLine"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="accordion" id="accordionExample">
+                            <div id="faqAcdItem" class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button id="faqAcdbtn" class="accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <p id="faqAcdQ">Non consectetur a erat nam at lectus urna duis?</p>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div id="faqAcdAns" class="accordion-body">
+                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
+                                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
+                                        rhoncus dolor purus non.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr>
+                            <div id="faqAcdItem" class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button id="faqAcdbtn" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <p id="faqAcdQ">Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                                            morbi?</p>
+                                    </button>
+                                </h2>
+
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div id="faqAcdAns" class="accordion-body">
+                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
+                                        suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
+                                        convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div id="faqAcdItem" class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button id="faqAcdbtn" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <p id="faqAcdQ">
+                                            Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                        </p>
+                                    </button>
+                                </h2>
+
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="faqAcdAns" class="accordion-body">
+                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
+                                        Id interdum velit laoreet id donec ultrices. Fringilla phasellus
+                                        faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                                        ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                                        tincidunt dui.
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div id="faqAcdItem" class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button id="faqAcdbtn" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <p id="faqAcdQ">
+                                            Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div id="faqAcdAns" class="accordion-body">
+                                        <p>
+                                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
+                                            suspendisse in est ante in. Nunc vel risus commodo viverra maecenas
+                                            accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis
+                                            blandit turpis cursus in
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div id="faqAcdItem" class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button id="faqAcdbtn" class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <p id="faqAcdQ">
+                                            Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div id="faqAcdAns" class="accordion-body">
+                                        <p>
+                                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
+                                            suspendisse in est ante in. Nunc vel risus commodo viverra maecenas
+                                            accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis
+                                            blandit turpis cursus in
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div id="faqAcdItem" class="accordion-item">
+                                <button id="faqAcdbtn" class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    <p id="faqAcdQ">
+                                        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                    </p>
+                                </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div id="faqAcdAns" class="accordion-body">
+                                        <p>
+                                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
+                                            Id interdum velit laoreet id donec ultrices. Fringilla phasellus
+                                            faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                                            ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                                            tincidunt dui.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ ENDS -->
+
+    <!-- Team -->
+    <section>
+        <div class="bg">
+            <div class="container" id="teamContainer">
+                <div class="row">
+                    <div class="col">
+                        <div class="servicesHeader">
+                            <h1 class="services">TEAM</h1>
+                            <div class="underLine"></div>
+                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                                impedit suscipit alias ea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl col-md-6">
+                        <div class="teamCard">
+                            <div class="card h-100">
+                                <div id="teamContent">
+                                    <img id="teamImage" src="./Assets/Images/team-1.jpeg" class="card-img-top"
+                                        alt="...">
+                                    <div class="overlay">
+                                        <i class="fa fa-twitter" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-facebook-official" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-instagram" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-linkedin-square" aria-hidden="true" id="imageOverlay"></i>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="cardTitle">Walter White</h5>
+                                    <p id="cardText">Chief Executive Officer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-6">
+                        <div class="teamCard">
+                            <div class="card h-100">
+                                <div id="teamContent">
+                                    <img id="teamImage" src="./Assets/Images/team-2.jpeg" class="card-img-top"
+                                        alt="...">
+                                    <div class="overlay">
+                                        <i class="fa fa-twitter" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-facebook-official" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-instagram" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-linkedin-square" aria-hidden="true" id="imageOverlay"></i>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="cardTitle">Sarah Jhonson</h5>
+                                    <p id="cardText">Product Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-6">
+                        <div class="teamCard">
+                            <div class="card h-100">
+                                <div id="teamContent">
+                                    <img id="teamImage" src="./Assets/Images/team-3.jpeg" class="card-img-top"
+                                        alt="...">
+                                    <div class="overlay">
+                                        <i class="fa fa-twitter" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-facebook-official" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-instagram" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-linkedin-square" aria-hidden="true" id="imageOverlay"></i>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="cardTitle">William Anderson</h5>
+                                    <p id="cardText">CTO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-6">
+                        <div class="teamCard">
+                            <div class="card h-100">
+                                <div id="teamContent">
+                                    <img id="teamImage" src="./Assets/Images/team-4.jpeg" class="card-img-top"
+                                        alt="...">
+                                    <div class="overlay">
+                                        <i class="fa fa-twitter" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-facebook-official" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-instagram" aria-hidden="true" id="imageOverlay"></i>
+                                        <i class="fa fa-linkedin-square" aria-hidden="true" id="imageOverlay"></i>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="cardTitle">Amanda Jepson</h5>
+                                    <p id="cardText">Accountant</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team ENDS -->
+    <!-- Contact -->
+    <section>
+        <div class="bgWhite">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="contactHeader">
+                            <h1 class="contact">CONTACT</h1>
+                            <div class="underLine"></div>
+                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                                impedit suscipit alias ea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="background-color:#F5F5F6 ;">
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="contactContentLhs">
+                                        <i id="contactIcon" class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                                        <h5 id="contactHeader">Our Address</h5>
+                                        <p id="contactInfo">A108 Adam Street, New York, NY 535022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="contactContentLhsTwo">
+                                        <i id="contactIconTwo" class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                                        <h5 id="contactHeader">Email Us</h5>
+                                        <p id="contactInfo">info@example.com</p>
+                                        <p id="contactInfoTwo">contact@example.com</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="contactContentLhsTwo">
+                                        <i id="contactIconThree" class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                                        <h5 id="contactHeader">Call Us</h5>
+                                        <p id="contactInfo">+1 5589 55488 55</p>
+                                        <p id="contactInfoTwo">+1 6678 254445 41</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <div class="p-5" id="contactFormContain">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name"
+                                        aria-label="Your Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Email"
+                                        aria-label="Your Email">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" id="comment" placeholder="Message"
+                                        aria-label="Message"></textarea>
+                                </div>
+                                <div class="col-12" style="display: flex; justify-content: center;">
+                                    <button type="submit" class="btn btn-danger" style="padding: 10px 35px; ">Send
+                                        Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Contact Ends -->
+
+    <!-- Address Links -->
+    <section>
+        <div class="linkBg">
+            <div class="container" id="linkContainer">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <h4 class="linkPresento">Presento<span class="linkdot">.</span></h4>
+                        <p class="linkAddress">A108 Adam Street
+                            <br> New York, NY 535022
+                            <br> United States
+                        </p>
+                        <p>
+                            <span class="linkEmail">Phone:</span> <span class="linkphone">+1 5589 55488 55</span>
+                            <br><span class="linkEmail">Email:</span> <span class="linkphone">info@example.com</span>
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <h6 class="linkListHeader">Useful Links</h6>
+                        <div class="linkUnderline"></div>
+                        <ul class="linklist">
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Home</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">About us</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Services</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Terms of service</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Privacy policy</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <h6 class="linkListHeader">Our Services</h6>
+                        <div class="linkUnderline"></div>
+                        <ul class="linklist">
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Web Design</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Web Development</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Product Management</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Marketing</a>
+                            </li>
+                            <li class="addressList">
+                                <i id="chevronRightIcon" class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <a href="" class="anchorAddress">Graphic Design</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <h6 class="linkListHeader">Join Our Newsletter</h6>
+                        <div class="linkUnderline"></div>
+                        <p class="linkNewsletterpara">Tamen quem nulla quae legam multos
+                            aute sint culpa legam noster
+                            magna
+                        </p>
+                        <div class="input-group mb-3" id="linkbtn">
+                            <input type="text" class="form-control" aria-describedby="button-addon2">
+                            <button class="btn" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Address Links -->
+    <!-- Footer -->
+    <section>
+        <div class="bgFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="footerContain">
+                        <div class="col-xl-6 col-sm-12" id="rightFooter">
+                            <p class="rightFooterPara">
+                                © Copyright <b>Presento</b> . All Rights Reserved
+                                <br> Designed by <span class="rightFooterParaSpan">BootstrapMade</span>
+                            </p>
+                        </div>
+
+                        <div class="col-xl-6 col-sm-12" id="leftFooter">
+                            <div class="footerIcon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <div class="footerIcon">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </div>
+                            <div class="footerIcon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                            <div class="footerIcon">
+                                <i class="fa fa-skype" aria-hidden="true"></i>
+                            </div>
+                            <div class="footerIcon">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer ENDS -->
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap link - JS -->
+    <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+    <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap link - JS -->
+
+    <!-- Bootstrap - with poppers CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
