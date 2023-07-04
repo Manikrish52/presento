@@ -1,22 +1,26 @@
 * {
     margin: 0%;
     padding: 0%;
+
+}
+body{
+    overflow-x: hidden;
+
 }
 
 /* Navigation Bar */
-.bgNavigation {
+.bgNavigation_content {
     width: 100%;
     background-color: white;
     padding: 20px;
     overflow: visible;
 }
-
 #naviPresento {
     display: flex;
     justify-content: left;
     align-items: center;
-    /* background-color: yellow; */
     width: fit-content;
+    
 }
 
 .naviContent {
@@ -37,7 +41,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-evenly;
     font-family: 'Raleway', sans-serif;
@@ -73,12 +76,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* background-color: orange; */
 }
 
 .navigationHam {
     margin-left: auto;
-    /* background-color: blueviolet; */
     display: none;
 }
 
@@ -94,7 +95,6 @@
 }
 
 .thirdColumn {
-    /* background-color: burlywood; */
     display: flex;
     align-items: center;
 
@@ -109,7 +109,7 @@
     background-color: black;
 }
 
-/* Navigation Bar (with Bootstrap) */
+/* navigation Bar */
 #bsNavPresento {
     font-size: 30px;
     font-weight: 600;
@@ -123,7 +123,6 @@
     font-size: 15px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: violet; */
 
 }
 
@@ -134,14 +133,12 @@
 .bsNavItems {
     display: flex;
     justify-content: space-evenly;
-    /* background-color: #E03A3C; */
 
 }
 
 .bsNavItemsCover {
     display: flex;
     justify-content: right;
-    /* background-color: orange; */
     width: 100%;
 
 }
@@ -160,10 +157,9 @@
 #getStarted:hover {
     background-color: #111111;
 }
-
-
-/* Deep Drop Down */
+/* deep drop down */
 #navbarDropdown {
+    margin: none;
     color: #111111;
     font-weight: 500;
 }
@@ -198,20 +194,10 @@
     padding-right: 31px;
 }
 
-/* Navigation Bar (with Bootstrap) ENDS */
+/* navigation Ba ends */
 
-
-
-
-
-
-
-
-
-
-
-/* Home */
-.homeBg {
+/* home */
+.homeBg_content {
     width: 100%;
     height: auto;
     margin-bottom: 100px;
@@ -266,7 +252,7 @@
     padding-bottom: 20px
 }
 
-#homeButton {
+#homeButton_content{
     background-color: #E03A3C;
     color: white;
     padding: 10px;
@@ -274,27 +260,22 @@
     padding-right: 30px;
 }
 
-#homeButton:hover {
+#homeButton_content:hover {
     background-color: transparent;
 }
 
-
-
-
-
 /* Home ENDS */
 
-
 /* About  */
-.bg {
+.bgbox_content {
     background-color: #1B1B1B;
     width: 100%;
-    transform: skewy(-3deg);
+    transform: skewy(+2deg);
     margin-top: 100px;
 }
 
 #insideContent {
-    transform: skewy(3deg);
+    transform: skewy(-3deg);
     padding-top: 50px;
 }
 
@@ -334,7 +315,7 @@
 }
 
 #icon {
-    color: #E03A3C;
+    color: #3aa6e0;
     padding-bottom: 10px;
 }
 
@@ -351,17 +332,11 @@
 #aboutSubrow {
     padding: 15px;
 }
-
-
-
-
 /* About ENDS */
-
-
 
 /* CountBox */
 
-.bgCount {
+.bgCount_content{
     background-color: white;
     width: 100%;
     margin-top: 100px;
@@ -382,7 +357,7 @@
     background-color: white;
 }
 
-.cbIconDiv {
+.cbIconDiv_content {
     position: absolute;
     width: 54px;
     height: 54px;
@@ -405,7 +380,7 @@
 }
 
 
-.cbData {
+.cbdata_content {
     margin-top: 10px;
 }
 
@@ -420,7 +395,7 @@
 
 /* CountBox ENDS */
 /* Card */
-.bgCard {
+.bgcard_content{
     background-color: white;
     width: 100%;
     margin-top: 100px;
@@ -467,7 +442,7 @@
 
 /* card ENDS */
 /* Card Content */
-.bgCc {
+.bgCc_content {
     background-color: white;
     width: 100%;
     margin-bottom: 100px;
@@ -500,14 +475,14 @@
 #ccTabs {
     width: 100%;
 }
-
-/* Card Content ENDS */
-/* Services */
+/* card content edns */
+/* services */
 
 #servicesContainer {
-    transform: skewy(3deg);
+    transform: skewy(-2deg);
     padding-top: 80px;
     padding-bottom: 80px;
+
 }
 
 .servicesHeader {
@@ -562,7 +537,7 @@
 /* Services Ends */
 
 /* Portfolio */
-.portfolioHeader {
+.portfolioHeader_content {
     text-align: center;
     color: black;
 }
@@ -673,23 +648,20 @@
 /* Portfolio Ends */
 /* Pricing */
 #princingContainer {
-    transform: skewy(3deg);
+    transform: skewy(-2deg);
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .pricingContent {
     text-align: center;
-    color: white;
-    background-color: #2B2B2B;
+    color: black;
+    background-color: white;
     border-radius: 10px;
 }
-
-.pricingContentRed {
-    text-align: center;
-    color: white;
+.pricingContent:hover{
     background-color: #E03A3C;
-    border-radius: 10px;
+    color: white;
 }
 
 .pricingContentStyle {
@@ -702,7 +674,6 @@
     font-size: 19px;
     font-weight: 500;
 }
-
 #dollar {
     font-size: 20px;
 }
@@ -733,7 +704,7 @@
 }
 
 #pricingBuynow {
-    color: white;
+    color: #111111;
     width: 150px;
     padding: 12px;
     font-size: 15px;
@@ -742,32 +713,14 @@
     border-color: #8D8D8D;
     border-width: 2px;
 }
-
-#pricingBuynowRed {
-    color: white;
-    width: 150px;
-    padding: 12px;
-    font-size: 15px;
-    font-weight: 500;
-    border-style: solid;
-    border-color: #ED7979;
-    border-width: 2px;
-}
-
 #pricingBuynow:hover {
-    border-color: white;
+    color: white;
+    background-color: #111111;
 
 }
 
-#pricingBuynowRed:hover {
-    border-color: white;
-
-}
 
 /* Pricing Ends */
-
-
-
 
 /* FAQ */
 .bgFaq {
@@ -812,27 +765,15 @@
 
 
 }
-
-
 #faqAcdQ {
     font-size: 20px;
 }
 
 /* FAQ ENDS */
 
-
-
-
-
-
-
-
-
-
-
 /* TEAM */
 #teamContainer {
-    transform: skewy(3deg);
+    transform: skewy(-2deg);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -942,6 +883,7 @@
     border-radius: 50px;
     border: 2px dotted pink;
     padding: 10px;
+    cursor: pointer;
     padding-right: 16px;
     padding-left: 16px;
 }
@@ -952,6 +894,7 @@
     border-radius: 50px;
     border: 2px dotted pink;
     padding: 10px;
+     cursor: pointer;
 }
 
 #contactIconThree {
@@ -961,6 +904,7 @@
     border: 2px dotted pink;
     padding: 10px;
     padding-left: 13px;
+     cursor: pointer;
     padding-right: 13px;
 }
 
