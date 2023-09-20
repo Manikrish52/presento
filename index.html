@@ -36,132 +36,138 @@
 <body>
     <!-- Navigation Bar (with Bootstrap) -->
     <section>
-       
-            <div class="container_content">
-                <div class="row">
-                    <div class="fixed-top p-0">
-                        <nav id="navbar-content" class="navbar navbar-expand-lg bg-light">
-                            <div class="container-fluid">
-                                <div class="col-xl-2">
-                                    <a class="navbar-brand" id="bsNavPresento" href="#">Presento<span
-                                            style="color:#d35f1b ;">.</span></a>
-                                </div>
-                                <div class="col-xl-9" id="bsNavmiddle">
-                                    <!-- bs btn -->
 
-                                    <!-- Modal Btn -->
-                                    <button type="button" class="modalham" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                    </button>
-                                    <!-- Modal Btn ENDS -->
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <div class="bsNavItemsCover">
-                                            <div class="bsNavItems">
-                                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" aria-current="page" href="#home-content">Home</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#about-content">About</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#service-content">Services</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#portfolio-content">Portfolio</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#team-content">Team</a>
-                                                    </li>
-                                                    <!-- blog -->
-                                                    <li class="nav-item dropdown">
-                                                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <span style="white-space:nowrap ;">Blog<i class="fa fa-angle-down" aria-hidden="true"></i></span>
-                                                                   
-                                                        </a>
-                                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                            <li><a class="dropdown-item" href="#">Personal Blogs</a>
-                                                            </li>
-                                                            
+        <div class="container_content">
+            <div class="row">
+                <div class="fixed-top p-0">
+                    <nav id="navbar-content" class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                            <div class="col-xl-2">
+                                <a class="navbar-brand" id="bsNavPresento" href="#">Presento<span
+                                        style="color:#d35f1b ;">.</span></a>
+                            </div>
+                            <div class="col-xl-9" id="bsNavmiddle">
+                                <!-- bs btn -->
+
+                                <!-- Modal Btn -->
+                                <button type="button" class="modalham" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                                <!-- Modal Btn ENDS -->
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <div class="bsNavItemsCover">
+                                        <div class="bsNavItems">
+                                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page"
+                                                        href="#home-content">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#about-content">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#service-content">Services</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#portfolio-content">Portfolio</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#team-content">Team</a>
+                                                </li>
+                                                <!-- blog -->
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span style="white-space:nowrap ;">Blog<i
+                                                                class="fa fa-angle-down" aria-hidden="true"></i></span>
+
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a class="dropdown-item" href="#">Personal Blogs</a>
+                                                        </li>
+
                                                         <li><a class="dropdown-item" href="#">group blogs</a>
                                                         </li>
-                                                        
-                                                            <li><a class="dropdown-item" href="#">Aggregated blogs</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <!-- drop down -->
-                                                    <li class="nav-item dropdown">
-                                                        <a class="nav-link" href="#" id="navbarDropdown" role="button"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                                            <span style="white-space:nowrap ;">Drop&nbsp;Down&nbsp;<i
-                                                                    class="fa fa-angle-down"
-                                                                    aria-hidden="true"></i></span>
-                                                        </a>
-                                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                            <li><a class="dropdown-item" href="#">Action</a>
-                                                            </li>
-                                                            <!-- Deep Drop Down -->
-                                                            <li class="nav-item deepdropdown">
-                                                                <a class="nav-link" href="#" id="navbarDropdown"
-                                                                    role="button" data-bs-toggle="dropdown"
-                                                                    aria-expanded="false">
-                                                                    Deep Drop Down&nbsp;&nbsp;&nbsp;<i
-                                                                        class="fa fa-angle-right"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="deepdropdown-menu"
-                                                                    aria-labelledby="navbarDropdown">
-                                                                    <li><a class="dropdown-item" href="#">1st Deep Drop Down</a>
-                                                                         
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">2nd Deep Drop Down</a>
-                                                                         
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">3rd Deep Drop Down</a>
-                                                                       
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">4th Deep Drop Down</a>
-                                                                          
-                                                                    </li>
-                                                           
-                                                                </ul>
-                                                            </li>
-                                                            <!-- Deep Drop Down ENDS -->
-                                                            <li><a class="dropdown-item" href="#">Another action</a>
-                                                            </li>
-                                                            <li><a class="dropdown-item" href="#">Something else
-                                                                    here</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#contact-content">Contact</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+
+                                                        <li><a class="dropdown-item" href="#">Aggregated blogs</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <!-- drop down -->
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span style="white-space:nowrap ;">Drop&nbsp;Down&nbsp;<i
+                                                                class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                        <li><a class="dropdown-item" href="#">Action</a>
+                                                        </li>
+                                                        <!-- Deep Drop Down -->
+                                                        <li class="nav-item deepdropdown">
+                                                            <a class="nav-link" href="#" id="navbarDropdown"
+                                                                role="button" data-bs-toggle="dropdown"
+                                                                aria-expanded="false">
+                                                                Deep Drop Down&nbsp;&nbsp;&nbsp;<i
+                                                                    class="fa fa-angle-right" aria-hidden="true"></i>
+                                                            </a>
+                                                            <ul class="deepdropdown-menu"
+                                                                aria-labelledby="navbarDropdown">
+                                                                <li><a class="dropdown-item" href="#">1st Deep Drop
+                                                                        Down</a>
+
+                                                                </li>
+                                                                <li><a class="dropdown-item" href="#">2nd Deep Drop
+                                                                        Down</a>
+
+                                                                </li>
+                                                                <li><a class="dropdown-item" href="#">3rd Deep Drop
+                                                                        Down</a>
+
+                                                                </li>
+                                                                <li><a class="dropdown-item" href="#">4th Deep Drop
+                                                                        Down</a>
+
+                                                                </li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <!-- Deep Drop Down ENDS -->
+                                                        <li><a class="dropdown-item" href="#">Another action</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else
+                                                                here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#contact-content">Contact</a>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-
                                 </div>
 
-                                <div class="col-xl-1" id="bsNavgetstarted">
-                                    <button class="btn" type="submit" id="getStarted">Get Started</button>
-                                </div>
                             </div>
-                        </nav>
 
-                    </div>
+                            <div class="col-xl-1" id="bsNavgetstarted">
+                                <button class="btn" type="submit" id="getStarted">Get Started</button>
+                            </div>
+                        </div>
+                    </nav>
+
                 </div>
-            </div>  
+            </div>
+        </div>
     </section>
     <!-- Modal -->
     <!-- Button trigger modal -->
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" href="#">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        href="#">
         <div class="modal-dialog modal-fullscreen modal-dialog-scrollable" style="padding: 20px;">
             <div class=" modal-content">
                 <div class="modal-header">
@@ -252,7 +258,7 @@
 
     <!-- Home -->
     <section>
-        <div id="home-content" class="homeBg_content"  >
+        <div id="home-content" class="homeBg_content">
             <div id="homeImage">
                 <div id="imgHome"></div>
                 <div class="homeOverlay">
@@ -1079,7 +1085,7 @@
     <!-- Team ENDS -->
     <!-- Contact -->
     <section>
-        <div id="contact-content" class="bgWhite" >
+        <div id="contact-content" class="bgWhite">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -1091,8 +1097,8 @@
                                 impedit suscipit alias ea.</p>
                         </div>
                     </div>
-                    </div>
-                    <div class="row" style="background-color:#F5F5F6 ;">
+                </div>
+                <div class="row" style="background-color:#F5F5F6 ;">
                     <div class="col-xl-6 col-md-12 col-sm-12">
                         <div>
                             <div class="row">
@@ -1242,7 +1248,8 @@
             </div>
         </div>
     </section>
-    <!-- Address Links -->
+    <!-- Address Link -->
+
     <!-- Footer -->
     <section>
         <div class="bgFooter">
